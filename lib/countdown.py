@@ -22,6 +22,7 @@ def countdown_with_sleep(seconds):
         if seconds == 0:
             print ('HAPPY NEW YEAR!')
 
+countdown_with_sleep (3)
 
 
 
