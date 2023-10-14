@@ -7,15 +7,20 @@ def countdown(seconds):
 
         print (f'{seconds} SECOND (S)!')
         seconds -=1
-    print ('HAPPY NEW YEAR!')
+        if seconds == 0:
+            print ('HAPPY NEW YEAR!')
+
+    pass
+
+countdown (5)
 
 def countdown_with_sleep(seconds):
     while seconds > 0:
         print(f'{seconds} SECOND(S)!')
-
-        time.sleep(1) 
         seconds -=1
-    print ('HAPPY NEW YEAR!')
+        time.sleep(1)
+        if seconds == 0:
+            print ('HAPPY NEW YEAR!')
 
 
 
